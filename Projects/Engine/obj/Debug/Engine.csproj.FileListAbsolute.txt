@@ -1,0 +1,5 @@
+C:\Users\disho\Documents\Github Repositories\cSharp_Basic_RPG\Projects\Engine\bin\Debug\Engine.dll
+C:\Users\disho\Documents\Github Repositories\cSharp_Basic_RPG\Projects\Engine\bin\Debug\Engine.pdb
+C:\Users\disho\Documents\Github Repositories\cSharp_Basic_RPG\Projects\Engine\obj\Debug\Engine.csproj.CoreCompileInputs.cache
+C:\Users\disho\Documents\Github Repositories\cSharp_Basic_RPG\Projects\Engine\obj\Debug\Engine.dll
+C:\Users\disho\Documents\Github Repositories\cSharp_Basic_RPG\Projects\Engine\obj\Debug\Engine.pdb
