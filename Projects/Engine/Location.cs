@@ -20,11 +20,15 @@ namespace Engine
         public Location LocationToWest { get; set; }
 
         // Class Constructor for location //
-        public Location(int id, string name, string description)
+        // null means we dont have to passa a parameter unless we want to //
+        public Location(int id, string name, string description, Item itemRequiredToEnter = null, Quest questAvailableHere = null, Monster monsterLivingHere = null)
         {
             ID = id;
             Name = name;
             Description = description;
+            ItemRequiredToEnter = itemRequiredToEnter;
+            QuestAvailableHere = questAvailableHere;
+            MonsterLivingHere = monsterLivingHere;
         }
     }
 }
