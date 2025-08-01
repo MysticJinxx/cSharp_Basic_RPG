@@ -11,6 +11,7 @@ namespace Engine
         public int CurrentHitPoints { get; set; }
         public int MaximumHitPoints { get; set; }
 
+        // Class constructor for LivingCreature passing to Player and Monster //
         public LivingCreature(int currentHitPoints, int maximumHitPoints)
         {
             CurrentHitPoints = currentHitPoints;

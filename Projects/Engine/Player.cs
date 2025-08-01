@@ -12,6 +12,7 @@ namespace Engine
         public int ExperiencePoints { get; set; }
         public int Level { get; set; }
 
+        // Class constructor for Player inherting from Living Creature //
         public Player(int currentHitPoints, int maximumHitPoints, int gold, int experiencePoints, int level) : base(currentHitPoints, maximumHitPoints)
         {
             Gold = gold;

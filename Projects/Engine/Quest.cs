@@ -14,6 +14,7 @@ namespace Engine
         public int RewardExperiencePoints { get; set; }
         public int RewardGold { get; set; }
 
+        // Class constructor for Quest //
         public Quest(int id, string name, string description, int rewardExperiencePoints, int rewardGold)
         {
             ID = id;

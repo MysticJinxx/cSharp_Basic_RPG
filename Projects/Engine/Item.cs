@@ -12,6 +12,7 @@ namespace Engine
         public string Name { get; set; }
         public string NamePlural { get; set; }
 
+        // Class constructor for Item passing to HealingPotion and Weapon //
         public Item(int id, string name, string namePlural)
         {
             ID = id;

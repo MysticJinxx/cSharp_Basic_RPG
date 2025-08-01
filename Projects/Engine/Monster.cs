@@ -14,6 +14,7 @@ namespace Engine
         public int RewardExperiencePoints { get; set; }
         public int RewardGold { get; set; }
 
+        // Class constructor for Monster inheriting from LivingCreature constructor //
         public Monster(int id, string name, int maximumDagame, int rewardExperiencePoints, int rewardGold, int currentHitPoints, int maximumHitPoints) : base(currentHitPoints, maximumHitPoints)
         {
             ID = id;

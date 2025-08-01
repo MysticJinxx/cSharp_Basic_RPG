@@ -11,6 +11,7 @@ namespace Engine
         public int MinimumDamage { get; set; }
         public int MaximumDamage { get; set; }
 
+        // Class constructor for Weapon inheriting from Item //
         public Weapon(int id, string name, string namePlural, int minimumDamage, int maximumDamage) : base(id, name, namePlural)
         {
             MinimumDamage = minimumDamage;

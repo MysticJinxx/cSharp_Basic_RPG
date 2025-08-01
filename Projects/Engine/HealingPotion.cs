@@ -10,6 +10,7 @@ namespace Engine
     {
         public int AmountToHeal { get; set; }
 
+        // Class constructor for HealingPotion inhereting from Item //
         public HealingPotion(int id, string name, string namePlural, int amountToHeal) : base(id, name, namePlural)
         {
             AmountToHeal = amountToHeal;
