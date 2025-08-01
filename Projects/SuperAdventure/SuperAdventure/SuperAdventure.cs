@@ -17,12 +17,14 @@ namespace SuperAdventure
         public SuperAdventure()
         {
             InitializeComponent();
+            // Instantiate the player object //
             _player = new Player(10, 10, 20, 0, 1);
             lblHitPoints.Text = _player.CurrentHitPoints.ToString();
             lblGold.Text = _player.Gold.ToString();
             lblExperience.Text = _player.ExperiencePoints.ToString();
             lblLevel.Text = _player.Level.ToString();
 
+            // Instantiate location id 1 with the name of Home //
             Location location = new Location(1, "Home", "This is your house.");
         }
     }
